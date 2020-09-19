@@ -1,0 +1,9 @@
+
+
+
+<div class="form__input">
+    <input placeholder="Add your list"  class="form__input--input" #newitem  id="textfiled"  (keyup.enter)="addbypress(newitem.value)"  autofocus   />
+    <button  class="form__input--button" (click)="addNewItem(newitem.value)" >Add</button>
+</div>
+
+

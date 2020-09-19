@@ -1,0 +1,14 @@
+
+<figure >
+    <img class="logo" src="../../assets/logo.png" alt="Trulli" >
+    
+  </figure>
+
+<app-taskadd class="paneladd"   (newitem)="newitem($event)"   ></app-taskadd> <br>
+
+<ui-tabbutton    [label]="label"   (outtab)="dofilter($event)"></ui-tabbutton> <br>
+
+<app-taskitem  class="areaitems"  *ngFor="let items of items" [items]="items"   (check)="movelist($event)">{{items.name}}</app-taskitem>
+
+
+<br>

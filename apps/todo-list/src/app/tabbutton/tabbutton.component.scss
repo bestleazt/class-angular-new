@@ -1,0 +1,39 @@
+.areabtn{
+    margin-bottom: 20px;
+.btnstatus{
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background-color:  #f1c5c5;
+    -webkit-box-shadow: 7px 10px 16px 0px rgba(171,169,171,0.54);
+-moz-box-shadow: 7px 10px 16px 0px rgba(171,169,171,0.54);
+box-shadow: 7px 10px 16px 0px rgba(171,169,171,0.54);
+transition: all .2s;
+
+
+    &:first-child{
+        background-color:#FFC133;
+    }
+
+    &:last-child{
+        background-color: #0BC2B7;
+    }
+
+    &:active,
+     &:focus{
+        transform: translateY(0);
+        outline: none;
+        
+      }
+
+    }
+
+.btn-active{
+    background-color: #666 !important;
+        color: white;
+}
+
+}

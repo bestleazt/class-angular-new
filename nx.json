@@ -28,6 +28,13 @@
     "todo-list-e2e": {
       "tags": [],
       "implicitDependencies": ["todo-list"]
+    },
+    "todo-list2": {
+      "tags": []
+    },
+    "todo-list2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["todo-list2"]
     }
   }
 }

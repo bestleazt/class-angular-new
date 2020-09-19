@@ -1,0 +1,13 @@
+.listtask{
+    display: inline-block;
+    margin-bottom: 20px;
+
+    &--titletask{
+        display: inline-block;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-left: 15px;
+    }
+
+}
