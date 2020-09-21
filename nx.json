@@ -35,6 +35,13 @@
     "todo-list2-e2e": {
       "tags": [],
       "implicitDependencies": ["todo-list2"]
+    },
+    "routing": {
+      "tags": []
+    },
+    "routing-e2e": {
+      "tags": [],
+      "implicitDependencies": ["routing"]
     }
   }
 }
